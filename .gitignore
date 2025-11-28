@@ -1,0 +1,61 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Byte-compiled and cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# ============================================
+# Project Specific (ETL)
+# ============================================
+# Config files with credentials
+config/config.ini
+config/*.ini
+*.env
+
+# Data files
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+
+# Intermediate or generated ETL output
+*.tmp
+*.bak
+
+# ============================================
+# IDE / Editor files
+# ============================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# JetBrains extra
+*.iml
+
+# ======================
