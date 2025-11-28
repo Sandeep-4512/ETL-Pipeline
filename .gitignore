@@ -30,6 +30,7 @@ env/
 config/config.ini
 config/*.ini
 *.env
+*.ini
 
 # Data files
 *.csv
