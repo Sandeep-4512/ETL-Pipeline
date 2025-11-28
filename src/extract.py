@@ -1,6 +1,6 @@
 from config_loader import *
 from util import *
-import pandas as pd
+import pandas as pd #type:ignore
 
 def mysql_extract(table_name):
     query=f"select * from {table_name}"
